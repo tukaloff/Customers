@@ -1,0 +1,16 @@
+com\tukaloff\customers\messages\MessageHandler.class
+com\tukaloff\customers\Config.class
+com\tukaloff\customers\dao\HibernateDao.class
+com\tukaloff\customers\ApplicationContextProvider.class
+com\tukaloff\customers\dao\CustomersAuth.class
+com\tukaloff\customers\websocket\LoginEndpoint.class
+com\tukaloff\customers\messages\Failed.class
+com\tukaloff\customers\messages\Login.class
+com\tukaloff\customers\dao\CustomersAuthHistory.class
+com\tukaloff\customers\controllers\LoginController.class
+com\tukaloff\customers\messages\Token.class
+com\tukaloff\customers\messages\Session.class
+com\tukaloff\customers\messages\Success.class
+com\tukaloff\customers\messages\Answer.class
+com\tukaloff\customers\messages\Message.class
+com\tukaloff\customers\utils\Utils.class
