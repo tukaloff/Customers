@@ -3,14 +3,8 @@
 <script src="https://brython.info/src/brython.js"></script>
 </head>
 <body onload="brython()">
-<script type="text/python">
-from browser import document, alert
-
-def echo(ev):
-    alert(document["zone"].value)
-
-document['mybutton'].bind('click',echo)
-</script>
+<script type="text/python"></script>
+<script type="text/python" src="main.py"></script>
 <input id="zone"><button id="mybutton">click !</button>
 </body>
 </html>
