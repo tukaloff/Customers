@@ -1,19 +1,16 @@
-<script>
-var $B = __BRYTHON__;
-eval(__BRYTHON__.InjectBuiltins());
+<html>
+<head>
+<script src="/brython.js"></script>
+</head>
+<body onload="brython()">
+<script type="text/python">
+from browser import document, alert
 
-var $locals___main__=$B.imported["__main__"] || {}, $locals=$locals___main__;
-$locals___main__["__doc__"]=None;
-$locals___main__["__name__"]=$locals___main__["__name__"] || "__main__";
-$locals___main__["__file__"]="undefined";None;
+def echo(ev):
+    alert(document["zone"].value)
 
-$B.enter_frame(["__main__", $locals___main__,"__main__", $locals___main__, "a"]);
-
-try{
-    ;$locals.$line_info="1,__main__";
-    $B.builtins.print('Hi, World');
-}
-finally{
-    $B.leave_frame("__main__")
-}
+document['mybutton'].bind('click',echo)
 </script>
+<input id="zone"><button id="mybutton">click !</button>
+</body>
+</html>
